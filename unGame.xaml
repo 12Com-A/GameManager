@@ -1,0 +1,16 @@
+﻿<Window x:Class="GameManager.unGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameManager"
+        mc:Ignorable="d"
+        Title="删除游戏" MinHeight="350" MinWidth="450" MaxHeight="400" MaxWidth="450">
+    <Grid>
+        <TextBlock Text="您要删除的游戏是：" FontSize="20" Margin="10,10,185,248"/>
+        <ComboBox x:Name="GameToDelete" HorizontalAlignment="Left" Margin="12,50,0,0" VerticalAlignment="Top" Width="261" Height="38" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="DeleteGameButton" Content="把骨灰都给扬了" HorizontalAlignment="Left" Margin="12,142,0,0" VerticalAlignment="Top" Width="261" Height="38" Click="DeleteGameButton_Click"/>
+        <Button x:Name="DeleteGameConfigButton" Content="只是删除游戏配置" HorizontalAlignment="Left" Margin="12,185,0,0" VerticalAlignment="Top" Width="261" Height="38" Click="DeleteGameConfigButton_Click"/>
+        <Button x:Name="CancelButton" Content="取消" HorizontalAlignment="Left" Margin="12,228,0,0" VerticalAlignment="Top" Width="261" Height="38" Click="CancelButton_Click"/>
+    </Grid>
+</Window>
