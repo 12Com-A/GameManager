@@ -30,15 +30,12 @@
             </TabItem>
             <TabItem Header="设置">
                 <Grid>
-                    <Grid.Background>
-                        <ImageBrush ImageSource="/Background.jpg" Stretch="None"/>
-                    </Grid.Background>
-                    
+
                     <Grid>
-                        <TextBlock Width="300" VerticalAlignment="Top"  x:Name="Version_Info" Foreground="White" HorizontalAlignment="Left" Text="版本号读取错误" FontSize="20" Margin="25,109,0,0"/>
-                        <Button x:Name="Update_Version" Content="检查更新" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="144" Height="42" Click="Update_Version_Click" Margin="25,182,0,0"/>
-                        <TextBlock Foreground="White" Text="开发者：Commkom" Width="200" FontSize="20" VerticalAlignment="Top" Margin="25,63,651,0"/>
-                        <TextBlock Width="300" VerticalAlignment="Top"  x:Name="Version_Info复制__C_" Foreground="White" HorizontalAlignment="Left" Text="版本号读取错误" FontSize="20" Margin="25,144,0,0"/>
+                        <TextBlock Width="300" VerticalAlignment="Top"  x:Name="Version_Info" HorizontalAlignment="Left" Text="版本号读取错误" FontSize="20" Margin="25,110,0,0"/>
+                        <Button x:Name="Update_Version" Content="检查更新" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="144" Height="42" Click="Update_Version_Click" Margin="25,193,0,0"/>
+                        <TextBlock Text="开发者：Commkom" Width="200" FontSize="20" VerticalAlignment="Top" Margin="25,70,651,0"/>
+                        <TextBlock Width="848" VerticalAlignment="Top"  x:Name="Github" HorizontalAlignment="Left" Text="Github链接：https://github.com/12Com-A/GameManager" FontSize="20" Margin="25,150,0,0"/>
                     </Grid>
                 </Grid>
             </TabItem>

@@ -5,10 +5,10 @@ using System.Text;
 namespace GameManager
 {
     public static class AppConfig {
-        public static string appVersion = "1.0.0";
+        public static string appVersion = "1.1.0";
         public static bool is_testVersion = false;
         public static string GameJsonPath = ".\\gameJson.json";
 
-        public static int bulidingversion = 1000;
+        public static int bulidingversion = 2000;
     }
 }
